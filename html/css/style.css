@@ -1,0 +1,871 @@
+ /*!
+Template Name: Marketing Saas Pricing Page Template
+Template URI: https://www.template.net
+Author: Template.net
+Author URI: https://www.template.net
+License: Template.net
+License URI: https://www.template.net/license-agreement
+*/
+
+
+ * {
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ *:before,
+ *:after {
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	color: black;
+ 	position: relative;
+ 	overflow-x: hidden;
+ 	background-color: white;
+ 	font-family: 'Montserrat', sans-serif;
+ 	position: relative;
+ }
+
+ body,
+ html {
+ 	height: 100%;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ a,
+ a:hover {
+ 	text-decoration: none;
+ }
+
+ .container {
+ 	max-width: 1060px;
+ }
+
+
+
+ /*-- css styles start --*/
+
+
+
+ /*-- pricing-banner start --*/
+ .pricing-banner {
+ 	background-image: url(../images/banner-bg.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ .gradient {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	top: 0;
+ 	background-color: #fff;
+ 	opacity: 0.1;
+ }
+
+ .pricing-header {
+ 	padding: 90px 0 400px;
+ 	text-align: center;
+ }
+
+ .pricing-banner h1 {
+ 	font-size: 56px;
+ 	color: #000000;
+ 	font-weight: bold;
+ 	width: 55%;
+ 	margin: 0 auto;
+ 	padding-bottom: 40px;
+ }
+
+ .pricing-banner p {
+ 	font-size: 18px;
+ 	line-height: 26px;
+ 	color: #000000;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	width: 68%;
+ 	margin: 0 auto;
+ }
+
+ /*-- pricing-banner end --*/
+
+ /*-- .nav-pills start --*/
+
+ .pricing .bd-example-tabs {
+ 	text-align: center;
+ 	margin-bottom: 100px;
+ }
+
+ .pricing .bd-example-tabs .nav-item {
+ 	border-radius: 10px;
+ 	margin-right: 35px;
+ 	width: 160px;
+ }
+
+ .pricing .bd-example-tabs .nav-item:last-child {
+ 	margin-right: 0;
+ }
+
+ .pricing .bd-example-tabs .nav-pills {
+ 	margin-bottom: 0;
+ 	padding: 0;
+ 	display: inline-flex;
+ }
+
+ .pricing .bd-example-tabs .nav-pills i {
+ 	font-size: 52px;
+ 	vertical-align: middle;
+ 	color: #d7d7d7;
+ 	display: block;
+ 	margin-bottom: 15px;
+ }
+
+ .pricing .nav-pills .nav-link.active i {
+ 	color: #ffffff;
+ }
+
+ .pricing .nav-pills .nav-link.active {
+ 	color: #ffffff;
+ 	background-color: #2e3192;
+ 	border: 0;
+ 	height: 100%;
+ 	border-bottom-left-radius: 0;
+ 	border-bottom-right-radius: 0;
+ }
+
+ .pricing .nav-pills .nav-link {
+ 	color: #2e3192;
+ 	font-weight: bold;
+ 	font-size: 16px;
+ 	text-transform: uppercase;
+ 	margin: 0 auto;
+ 	border: 5px solid #d7d7d7;
+ 	padding: 16px 10px 23px;
+ 	margin-bottom: 10px;
+ 	border-radius: 10px;
+ }
+
+ .pricing .bd-example-tabs .nav-item:nth-child(2) .nav-link {
+ 	padding: 16px 35px 23px;
+ }
+
+ /*-- .nav-pills end --*/
+
+ /*-- pricing start --*/
+
+ .pricing {
+ 	margin-top: -320px;
+ 	margin-bottom: 90px;
+ }
+
+ .pricing .card {
+ 	border: 5px solid #2e3192;
+ 	border-radius: 10px;
+ 	text-align: left;
+ }
+
+ .pricing .card-block {
+ 	display: flex;
+ 	padding: 70px 0 70px 40px;
+ }
+
+ .pricing .card-details {
+ 	border-right: 1px solid #d7d7d7;
+ }
+
+ .pricing .icons {
+ 	padding-left: 80px;
+ }
+
+ .pricing .icons1 {
+ 	padding-left: 40px;
+ }
+
+ .pricing .card-title {
+ 	font-size: 26px;
+ 	color: #000000;
+ 	font-weight: 500;
+ 	margin-bottom: 14px;
+ }
+
+ .pricing .currency {
+ 	font-size: 76px;
+ 	color: #000000;
+ 	font-weight: 200;
+ 	margin-bottom: 12px;
+ }
+
+ .pricing .period {
+ 	font-size: 14px;
+ 	color: #000000;
+ 	font-weight: 500;
+ 	text-transform: uppercase;
+ 	margin-bottom: 18px;
+ }
+
+ .pricing .text {
+ 	font-size: 16px;
+ 	line-height: 26px;
+ 	color: #000000;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	margin-right: 20%;
+ 	margin-bottom: 35px;
+ }
+
+ .pricing .card a {
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	display: inline-block;
+ 	border-radius: 5px;
+ 	background-color: #ff6005;
+ 	padding: 20px 44px;
+ 	text-transform: uppercase;
+ 	transition: 0.7s;
+ }
+
+ .pricing .card li {
+ 	font-size: 16px;
+ 	color: #000000;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	list-style: none;
+ 	padding: 6px 0;
+ 	display: flex;
+ 	margin-bottom: 25px;
+ }
+
+ .pricing .card li:nth-child(1) {
+ 	padding-top: 0;
+ }
+
+ .pricing .card i {
+ 	font-size: 16px;
+ 	color: #2e3192;
+ 	margin-right: 20px;
+ 	margin-top: 5px;
+ }
+
+ .pricing-bottom h3 {
+ 	font-size: 40px;
+ 	color: #000000;
+ 	font-weight: 500;
+ 	margin-bottom: 23px;
+ }
+
+ .pricing-bottom p {
+ 	font-size: 24px;
+ 	line-height: 34px;
+ 	color: #000000;
+ 	font-weight: 500;
+ 	width: 800px;
+ 	margin: 0 auto;
+ }
+
+ /*-- pricing end --*/
+
+ /*-- pricing-customers start --*/
+
+ .pricing-customers {
+ 	background-image: url(../images/banner-bg.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+ 	width: 100%;
+ 	height: auto;
+ 	padding: 120px 0 140px;
+ }
+
+ .carousel h2 {
+ 	font-size: 40px;
+ 	color: #ffffff;
+ 	font-weight: 500;
+ 	margin-bottom: 30px;
+ }
+
+ .carousel p {
+ 	font-size: 20px;
+ 	line-height: 26px;
+ 	color: #ffffff;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	margin: 0 auto;
+ 	width: 85%;
+ 	font-style: italic;
+ 	margin-bottom: 30px;
+ }
+
+ .carousel h4 {
+ 	font-size: 24px;
+ 	color: #ffffff;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	font-weight: bold;
+ 	font-style: italic;
+ }
+
+ .carousel i {
+ 	font-size: 32px;
+ 	color: #ffffff;
+ 	font-weight: 200;
+ }
+
+ .carousel-indicators {
+ 	display: none;
+ }
+
+ .carousel-control-next,
+ .carousel-control-prev {
+ 	opacity: 1;
+ 	width: 0;
+ }
+
+ .carousel-control-prev {
+ 	left: -30px;
+ }
+
+ .carousel-control-next {
+ 	right: -30px;
+ }
+
+ /*-- pricing-customers end --*/
+
+ /*-- footer-content start --*/
+
+ .footer-content {
+ 	padding: 80px 0 74px;
+ }
+
+ .footer-content h2 {
+ 	font-size: 40px;
+ 	color: #000000;
+ 	padding-bottom: 52px;
+ 	font-weight: 400;
+ }
+
+ .footer-content h4 {
+ 	font-size: 18px;
+ 	color: #000000;
+ 	padding-bottom: 14px;
+ 	font-weight: bold;
+ 	display: inline-block;
+ }
+
+ .footer-content p {
+ 	font-size: 18px;
+ 	line-height: 32px;
+ 	color: #000;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	margin: 0 45px 47px 0;
+ }
+
+ .footer-content span {
+ 	width: 8%;
+ }
+
+ .footer-content .icon-body {
+ 	width: 92%;
+ 	margin-top: 2px;
+ }
+
+ .footer-content p:nth-child(3),
+ .footer-content p:nth-child(4) {
+ 	margin-bottom: 0;
+ }
+
+ .footer-content i {
+ 	font-size: 28px;
+ 	color: #000000;
+ 	opacity: 0.2;
+ }
+
+ .footer-content .icon {
+ 	display: flex;
+ }
+
+ /*-- footer-content end --*/
+
+ /* Hover Effects start*/
+
+ .pricing .card a:hover {
+ 	background: #2e3192;
+ 	-webkit-box-shadow: 0 6px 6px -6px #2e3192;
+ 	-moz-box-shadow: 0 6px 6px -6px #2e3192;
+ 	box-shadow: 0 6px 6px -6px #2e3192;
+ }
+
+
+ /*=======================
+        media query styles start
+        ========================*/
+
+ /*-- 1920 to 1430 styles start --*/
+ @media only screen and (max-width: 1920px) and (min-width: 1430px) {
+ 	.container {
+ 		max-width: 1060px;
+ 	}
+ }
+
+ @media only screen and (max-width: 1440px) {
+ 	.pricing {
+ 		margin-bottom: 90px;
+ 	}
+
+ 	.pricing-banner h1 {
+ 		font-size: 45px;
+ 		width: 45%;
+ 	}
+
+ 	.pricing-banner p {
+ 		font-size: 17px;
+ 		line-height: 24px;
+ 	}
+
+ 	.pricing .currency {
+ 		font-size: 70px;
+ 	}
+
+ 	.pricing .card a {
+ 		padding: 20px 35px;
+ 	}
+
+ 	.pricing .bd-example-tabs {
+ 		margin-bottom: 70px;
+ 	}
+
+ 	.pricing-bottom h3 {
+ 		font-size: 38px;
+ 		margin-bottom: 15px;
+ 	}
+
+ 	.pricing-bottom p {
+ 		font-size: 23px;
+ 		width: 710px;
+ 	}
+
+ 	.footer-content {
+ 		padding: 75px 0px;
+ 	}
+
+ 	.footer-content h2 {
+ 		font-size: 37px;
+ 	}
+
+ 	.footer-content p {
+ 		font-size: 17px;
+ 		line-height: 28px;
+ 	}
+ }
+
+ @media only screen and (max-width: 1024px) {
+ 	.container {
+ 		max-width: 100%;
+ 	}
+
+ 	.pricing-header {
+ 		padding: 60px 0 380px;
+ 	}
+
+ 	.pricing-banner h1,
+ 	h2 {
+ 		font-size: 40px;
+ 	}
+
+ 	.pricing-banner h2 {
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.pricing-banner p {
+ 		font-size: 16px;
+ 		line-height: 23px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-item {
+ 		margin-right: 30px;
+ 		width: 140px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-item:nth-child(2) .nav-link {
+ 		padding: 10px 35px 10px;
+ 	}
+
+ 	.pricing .nav-pills .nav-link {
+ 		padding: 10px 10px 10px;
+ 		margin-bottom: 10px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-pills i {
+ 		margin-bottom: 10px;
+ 	}
+
+ 	.pricing .nav-pills .nav-link {
+ 		font-size: 15px;
+ 	}
+
+ 	.pricing {
+ 		padding: 0 15px;
+ 		margin-bottom: 60px;
+ 	}
+
+ 	.pricing .card-block {
+ 		padding: 50px 0 50px 30px;
+ 	}
+
+ 	.pricing .card-title {
+ 		font-size: 25px;
+ 	}
+
+ 	.pricing .currency {
+ 		font-size: 65px;
+ 	}
+
+ 	.pricing .card a {
+ 		padding: 18px 22px;
+ 	}
+
+ 	.pricing .card li {
+ 		font-size: 15px;
+ 		padding: 5px 0;
+ 	}
+
+ 	.pricing .bd-example-tabs {
+ 		margin-bottom: 50px;
+ 	}
+
+ 	.pricing-bottom p {
+ 		font-size: 20px;
+ 		line-height: 30px;
+ 	}
+
+ 	.pricing-customers {
+ 		padding: 100px 0;
+ 	}
+
+ 	.carousel h2 {
+ 		font-size: 33px;
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.carousel p {
+ 		font-size: 16px;
+ 		line-height: 24px;
+ 		width: 80%;
+ 	}
+
+ 	.carousel-control-prev {
+ 		left: 0;
+ 	}
+
+ 	.carousel-control-next {
+ 		right: 0;
+ 	}
+
+ 	.footer-content {
+ 		padding: 50px 0px;
+ 	}
+
+ 	.footer-content h2 {
+ 		font-size: 32px;
+ 		padding-bottom: 45px;
+ 	}
+
+ 	.footer-content p {
+ 		font-size: 16px;
+ 		line-height: 26px;
+ 		margin: 0 45px 30px 0;
+ 	}
+ }
+
+ @media only screen and (max-width: 814px) {
+
+ 	.pricing-banner h1 {
+ 		font-size: 35px;
+ 	}
+
+ 	.pricing-banner h2 {
+ 		margin-bottom: 10px;
+ 	}
+
+ 	.pricing-banner p {
+ 		font-size: 16px;
+ 		line-height: 24px;
+ 		width: 100%;
+ 	}
+
+ 	.pricing .card-block {
+ 		padding: 50px 0;
+ 	}
+
+ 	.pricing .currency {
+ 		font-size: 60px;
+ 	}
+
+ 	.pricing .icons {
+ 		padding-left: 40px;
+ 	}
+
+ 	.pricing .text {
+ 		font-size: 15px;
+ 		line-height: 24px;
+ 		margin-right: 5%;
+ 		margin-bottom: 30px;
+ 	}
+
+ 	.pricing .card a {
+ 		font-size: 15px;
+ 		padding: 15px 15px;
+ 	}
+
+ 	.pricing-bottom h3 {
+ 		font-size: 35px;
+ 		margin-bottom: 10px;
+ 	}
+
+ 	.pricing-bottom p {
+ 		font-size: 18px;
+ 	}
+
+ 	.pricing-customers {
+ 		padding: 90px 0;
+ 	}
+
+ 	.carousel p {
+ 		font-size: 15px;
+ 		line-height: 23px;
+ 	}
+
+ 	.carousel h4 {
+ 		font-size: 21px;
+ 	}
+
+ 	.footer-content span {
+ 		width: 6%;
+ 	}
+
+ 	.footer-content .icon-body {
+ 		width: 94%;
+ 	}
+ }
+
+ @media only screen and (max-width: 640px) {
+
+ 	.pricing-banner h1 {
+ 		font-size: 30px;
+ 		width: 100%;
+ 	}
+
+ 	.pricing-banner p {
+ 		font-size: 15px;
+ 		line-height: 22px;
+ 	}
+
+ 	.pricing-bottom h3 {
+ 		font-size: 32px;
+ 	}
+
+ 	.pricing-bottom p {
+ 		font-size: 16px;
+ 		line-height: 28px;
+ 		width: 100%;
+ 	}
+
+ 	.pricing .card {
+ 		text-align: center;
+ 	}
+
+ 	.pricing .card-block {
+ 		display: block;
+ 	}
+
+ 	.pricing .card li {
+ 		width: 42%;
+ 		margin: 0 auto;
+ 	}
+
+ 	.pricing .icons {
+ 		padding-top: 30px;
+ 	}
+
+ 	.carousel p {
+ 		line-height: 21px;
+ 	}
+
+ 	.carousel h4 {
+ 		font-size: 18px;
+ 	}
+
+ 	.footer-content h2 {
+ 		font-size: 28px;
+ 		padding-bottom: 40px;
+ 	}
+
+ 	.footer-content p {
+ 		font-size: 15px;
+ 		line-height: 24px;
+ 		margin: 0 0 30px 0;
+ 	}
+
+ 	.footer-content h4 {
+ 		padding-bottom: 8px;
+ 	}
+
+ 	.pricing .card-details {
+ 		border-right: 0;
+ 	}
+ }
+
+ @media only screen and (max-width: 480px) {
+
+ 	.pricing-banner h1,
+ 	h2 {
+ 		font-size: 25px;
+ 	}
+
+ 	.pricing-banner p {
+ 		font-size: 14px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-item {
+ 		margin-right: 20px;
+ 		width: 100px;
+ 	}
+
+ 	.pricing .nav-pills .nav-link {
+ 		font-size: 12px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-pills i {
+ 		font-size: 45px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-item:nth-child(2) .nav-link {
+ 		padding: 5px 15px 5px;
+ 	}
+
+ 	.pricing .nav-pills .nav-link {
+ 		padding: 5px 0px 5px;
+ 	}
+
+ 	.pricing .currency {
+ 		font-size: 55px;
+ 	}
+
+ 	.pricing .period {
+ 		margin-bottom: 20px;
+ 	}
+
+ 	.pricing .card li {
+ 		width: 100%;
+ 	}
+
+ 	.pricing-bottom h3 {
+ 		font-size: 28px;
+ 	}
+
+ 	.pricing-bottom p {
+ 		font-size: 15px;
+ 		line-height: 24px;
+ 	}
+
+ 	.carousel {
+ 		position: relative;
+ 	}
+
+ 	.pricing-customers {
+ 		padding-top: 50px;
+ 	}
+
+ 	.carousel-control-next,
+ 	.carousel-control-prev {
+ 		width: 85%;
+ 		position: absolute;
+ 		bottom: -370px;
+ 	}
+
+ 	.carousel p {
+ 		font-size: 14px;
+ 		width: 100%;
+ 	}
+
+ 	.footer-content h2 {
+ 		font-size: 23px;
+ 		padding-bottom: 30px;
+ 	}
+
+ 	.footer-content span {
+ 		width: 10%;
+ 	}
+
+ 	.footer-content .icon-body {
+ 		margin-top: 0;
+ 		width: 90%;
+ 	}
+
+ 	.footer-content h4 {
+ 		padding-bottom: 8px;
+ 	}
+
+ 	.footer-content i {
+ 		font-size: 25px;
+ 	}
+
+ 	.footer-content h4 {
+ 		font-size: 16px;
+ 	}
+
+ 	.footer-content p {
+ 		font-size: 14px;
+ 		line-height: 23px;
+ 	}
+ }
+
+ @media only screen and (max-width: 375px) {
+ 	.pricing .bd-example-tabs .nav-item {
+ 		margin-right: 0;
+ 		width: 110px;
+ 		margin: 0 auto;
+ 	}
+
+ 	.pricing .nav-pills .nav-link {
+ 		padding: 5px 10px 5px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-item:nth-child(2) .nav-link {
+ 		padding: 5px 20px 5px;
+ 	}
+
+ 	.pricing .bd-example-tabs .nav-item:last-child {
+ 		margin: 0 auto;
+ 		padding-top: 20px;
+ 	}
+
+ 	.pricing-bottom h3 {
+ 		font-size: 25px;
+ 	}
+
+ 	.carousel h2 {
+ 		font-size: 24px;
+ 		margin-bottom: 15px;
+ 	}
+
+ 	.footer-content h2 {
+ 		font-size: 18px;
+ 		font-weight: bold;
+ 	}
+ }
